@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         myAdView!!.loadAd(adRequest)
     }
 
-    fun PrepAd() {
+    fun prepareAd() {
         // Prepare the Interstitial Ad
         interstitial = InterstitialAd(this@MainActivity)
         // Insert the Ad Unit ID
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
             return false
         }
 
-    fun CheckInternet() {
+    private fun CheckInternet() {
         val mWebClient: WebViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
                 if (isConnected) {
@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
                             "travelettesofbangladesh.com/event"
                         )
                     ) {
-                        PrepAd()
+                        prepareAd()
                     }
                 } else {
                     buildDialog(this@MainActivity).show()
@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
             tgwebView!!.webViewClient = mWebClient
             val webSettings = tgwebView!!.settings
             webSettings.javaScriptEnabled = true
-            tgwebView!!.loadUrl("https://muradnagarshop.com/")
+            tgwebView!!.loadUrl("https://muradnagarshop.com")
         }
         //end checking internet connection
     }

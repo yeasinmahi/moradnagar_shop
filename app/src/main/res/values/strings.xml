@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">MoradnagarShop</string>
+    <string name="app_name">Moradnagar Shop</string>
 
-    <string name="app_id">ca-app-pub-8478174853179879~7480519870</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8478174853179879/5292081056</string>
+    <string name="app_id">ca-app-pub-9013684632655488~4698892290</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9013684632655488/6173903298</string>
     <string name="admob_interstitial_id">ca-app-pub-8478174853179879/5838875961</string>
     <string name="title_activity_main2">MainActivity</string>
     <!-- Strings used for fragments for navigation -->
