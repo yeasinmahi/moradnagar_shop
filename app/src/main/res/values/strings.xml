@@ -3,14 +3,12 @@
 
     <string name="app_id">ca-app-pub-9013684632655488~4698892290</string>
     <string name="banner_ad_unit_id">ca-app-pub-9013684632655488/6173903298</string>
-    <string name="admob_interstitial_id">ca-app-pub-8478174853179879/5838875961</string>
-    <string name="title_activity_main2">MainActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="admob_interstitial_id">ca-app-pub-9013684632655488/8688112452</string>
+    <string name="url">https://muradnagarshop.com</string>
+    <string name="no_internet_title">No Internet Connection</string>
+    <string name="no_internet_message">You need to have Mobile Data or WiFi to access this app.</string>
+    <string name="interstitial_url_1">muradnagarshop.com/product</string>
+    <string name="interstitial_url_2">muradnagarshop.com/contact-us</string>
+0
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
